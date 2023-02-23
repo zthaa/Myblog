@@ -5,13 +5,6 @@ theme = 'ananke'
 # 文章内连接用新标签打开
 [blackfriday]
   hrefTargetBlank = true
-
-# 谷歌分析，分析站点访问
-googleAnalytics
-
-# 来必力评论
-livereUID
-
 # 字数统计和预计时间
 moreMeta = true
 
