@@ -2,3 +2,31 @@ baseURL = 'http://example.org/'
 languageCode = 'zh-cn'
 title = 'day day up'
 theme = 'ananke'
+# 文章内连接用新标签打开
+[blackfriday]
+  hrefTargetBlank = true
+
+# 谷歌分析，分析站点访问
+googleAnalytics
+
+# 来必力评论
+livereUID
+
+# 字数统计和预计时间
+moreMeta = true
+
+# 不蒜子统计阅读次数，siteUV sitePV pagePV 可自行设置
+  [params.busuanzi]
+    enable = true
+
+# 增加友链和关于界面，之后新增 /content/links.md 和 /content/about.md 两篇文章即可
+[[menu.main]]
+  name = "Links"
+  weight = 50
+  identifier = "links"
+  url = "/links/"
+[[menu.main]]
+  name = "About"
+  weight = 60
+  identifier = "about"
+  url = "/about/"
